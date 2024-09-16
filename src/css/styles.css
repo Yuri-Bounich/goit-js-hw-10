@@ -16,3 +16,34 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.container-all{
+  padding-left: 32px;
+}
+
+.timer{
+  display: flex;
+  align-content: space-between;
+  gap: 6px;
+
+}
+
+.field{
+  display: flex;
+  flex-direction: column;
+  row-gap: 6px;
+}
+.value{
+font-family: Montserrat;
+font-size: 32px;
+text-align: center;
+line-height: 1;
+margin-top: 10px;
+}
+.label{
+  font-family: Montserrat;
+  font-size: 12px;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
