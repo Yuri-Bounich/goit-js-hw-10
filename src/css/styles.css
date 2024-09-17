@@ -19,6 +19,7 @@
 
 .container-all{
   padding-left: 32px;
+  max-width: 520px;
 }
 
 .timer{
